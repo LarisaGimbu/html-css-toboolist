@@ -6,13 +6,19 @@
 
 body{
   background-color: rgb(246, 248, 249);
+  font-family: 'Roboto', sans-serif;
 }
 
+/***** HEADER  *****/
 header{
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 20px;
 }
 
 #logo{
+  width: 40px;
   vertical-align: middle;
 }
 
@@ -20,12 +26,7 @@ h1{
   display: inline-block;
 }
 
-header{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-}
-
+/***** MAIN  *****/
 .container{
   margin: 30px auto;
   width: 60%;
@@ -40,6 +41,7 @@ header{
   border-bottom: 2px solid rgb(246, 248, 249) ;
 }
 
+/* buttons  */
 button{
   border-radius: 3px;
   padding: 5px;
@@ -60,6 +62,7 @@ button{
   border: 1px solid lightgrey;
   color: lightgrey;
 }
+/* /buttons  */
 
 .contenuto{
   padding-left: 40px;
@@ -73,11 +76,22 @@ button{
   color: rgb(74, 78, 87);
 }
 
-.row{
-  width: 5px;
-  height: 2px;
+/* simbols  */
+.little-title::before{
+  content: '\2B9F';
 }
 
+.done::before{
+  content: '\2611';
+  color: green;
+}
+
+.undone::before{
+  content: '\2612';
+  color: red;
+}
+
+/* menu  */
 .text{
   font-size: 10px;
   padding-top: 5px;
@@ -130,4 +144,4 @@ button{
   color: white;
   font-size: 6px;
 }
-
+/* /menu  */
