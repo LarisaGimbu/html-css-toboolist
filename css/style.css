@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: rgb(246, 248, 249);
+}
+
+header{
+  background-color: white;
+}
+
 #logo{
   vertical-align: middle;
 }
@@ -17,3 +25,40 @@ header{
   padding-bottom: 10px;
   padding-left: 20px;
 }
+
+.container{
+  margin: 30px auto;
+  width: 80%;
+  height: 500px;
+  background-color: white;
+}
+
+.buttons{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(246, 248, 249) ;
+}
+
+button{
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 8px;
+}
+
+.add-task{
+  width: 50px;
+  border: 0;
+  background-color: rgb(71, 173, 241);
+  color: white;
+}
+
+.add-section{
+  width: 60px;
+  border: 0;
+  background-color: white;
+  border: 1px solid lightgrey;
+  color: lightgrey;
+
+}
+
