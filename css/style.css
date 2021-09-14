@@ -28,15 +28,15 @@ header{
 
 .container{
   margin: 30px auto;
-  width: 80%;
+  width: 60%;
   height: 500px;
   background-color: white;
 }
 
 .buttons{
-  padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 5px;
+  padding-left: 40px;
   border-bottom: 2px solid rgb(246, 248, 249) ;
 }
 
@@ -59,6 +59,35 @@ button{
   background-color: white;
   border: 1px solid lightgrey;
   color: lightgrey;
+}
 
+.contenuto{
+  padding-left: 40px;
+}
+
+.menu{
+  padding-top: 20px;
+}
+
+.little-title{
+  color: rgb(74, 78, 87);
+}
+
+.row{
+  width: 5px;
+  height: 2px;
+}
+
+.text{
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.editorial{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(71, 173, 241);
+  color: white;
+  font-size: 6px;
 }
 
