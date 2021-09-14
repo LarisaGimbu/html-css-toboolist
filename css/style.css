@@ -115,3 +115,19 @@ button{
   font-size: 6px;
 }
 
+.website{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(215, 94, 158);
+  color: white;
+  font-size: 6px;
+}
+
+.sales{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(176, 201, 38);
+  color: white;
+  font-size: 6px;
+}
+
