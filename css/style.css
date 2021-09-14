@@ -91,3 +91,27 @@ button{
   font-size: 6px;
 }
 
+.q1-goals{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(156, 114, 228);
+  color: white;
+  font-size: 6px;
+}
+
+.recluting{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(98, 191, 168);
+  color: white;
+  font-size: 6px;
+}
+
+.mobile{
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: rgb(241, 154, 42);
+  color: white;
+  font-size: 6px;
+}
+
