@@ -35,7 +35,7 @@ h1{
 }
 
 /* buttons  */
-.buttons{
+.top-container{
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 40px;
@@ -62,20 +62,21 @@ button{
 }
 /* /buttons  */
 
-.contenuto{
+.bottom-container{
   padding-left: 40px;
 }
 
-.menu{
-  padding-top: 20px;
+ul{
+  list-style: none;
 }
 
-.little-title{
+h5{
+  padding-top: 20px;
   color: rgb(74, 78, 87);
 }
 
 /* simbols  */
-.little-title::before{
+h5::before{
   content: '\2B9F';
 }
 
